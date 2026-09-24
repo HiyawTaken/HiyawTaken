@@ -1,19 +1,46 @@
-<h1 align="center">Hi 👋, I'm Hiyaw Ertiro</h1>
-<h3 align="center">Machine learning engineer (in development)</h3>
+# Hiyaw Ertiro
 
-- 🖥️ Comp Sci @ **GCU**
+**Data & applied AI engineer.** I build data pipelines and ML systems end-to-end, from raw ingestion to the models, dashboards, and APIs that put data in front of decision-makers.
 
-- 🌱 I’m currently learning **Langchain, AWS, Data Engineering, agentic VLM workflows and time-series forecasting**
+Honors B.S. Computer Science (Big Data Analytics) at Grand Canyon University, graduating 2027. Looking for Forward Deployed, AI/ML, and Data Engineering roles.
 
-- 👨‍💻 All of my projects are available at [https://github.com/HiyawTaken/](https://github.com/HiyawTaken/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-hiyawertiro-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/hiyawertiro)
+[![Email](https://img.shields.io/badge/Email-hiyaw12ertiro%40gmail.com-EA4335?logo=gmail&logoColor=white)](mailto:hiyaw12ertiro@gmail.com)
+[![Hugging Face](https://img.shields.io/badge/Hugging%20Face-HiyawErtiro-FFD21E?logo=huggingface&logoColor=black)](https://huggingface.co/HiyawErtiro)
 
-- 📫 How to reach me **hiyaw12ertiro@gmail.com**
+---
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/hiyawertiro" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="hiyawertiro" height="30" width="40" /></a>
-<a href="https://instagram.com/hiyaw4christ/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="https://www.instagram.com/hiyaw4christ/" height="30" width="40" /></a>
-</p>
+### Currently
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://aws.amazon.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="aws" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.selenium.dev" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/detain/svg-logos/780f25886640cef088af994181646db2f6b1a3f8/svg/selenium-logo.svg" alt="selenium" width="40" height="40"/> </a> </p>
+- **Applied AI Engineering Extern @ Paychex**: building an AI decision-support system that turns customer feedback, CI/CD, security, and monitoring signals into ranked engineering recommendations.
+- **AI Document Intelligence Extern @ Extern × Pfizer**: OCR and RAG pipelines (Tesseract, PaddleOCR, LlamaIndex) that extract and classify data from pharmaceutical vendor files.
+- **Analytics Engineering Intern @ Michael & Son Services**: SQL reporting pipelines on Azure SQL, an XGBoost call-volume forecast for staffing, and live Tableau dashboards.
+
+Previously: trained a transformer across multiple processes on NERSC's Perlmutter supercomputer at Argonne's HPC Bootcamp.
+
+---
+
+### Featured projects
+
+| Project | What it is | Stack |
+|---|---|---|
+| **[BTC prediction pipeline](https://github.com/HiyawTaken/btc-prediction-pipeline)**<br>[Live dashboard](https://btc-direction-dashboard.onrender.com) | A production pipeline that runs daily with no one touching it: ingestion, a layered warehouse, transformations, orchestration, inference, and serving. The dashboard reports honestly that the model doesn't beat the baseline. | BigQuery · dbt · Airflow · GitHub Actions · FastAPI |
+| **[BTC sentiment predictor](https://github.com/HiyawTaken/btc-sentiment-predictor)** | The model behind the pipeline: a fine-tuned CryptoBERT (macro-F1 0.39 → 0.79) and an LSTM written from scratch in CuPy, plus the audit that found a leak and showed what the data can't predict. | CuPy · CryptoBERT · Hugging Face |
+| **[DrawADigit](https://github.com/HiyawTaken/DrawADigit)**<br>[Live demo](https://drawadigit.onrender.com) | A neural net built from scratch in NumPy/CuPy that classifies digits you draw in the browser. 97.3% MNIST test accuracy. | NumPy · CuPy · FastAPI · Docker |
+| **[Shakespeare autocomplete](https://github.com/HiyawTaken/shakespeare-rnn)**<br>[Live demo](https://shakespeare-rnn.onrender.com) | A character-level RNN vs. LSTM trained on Shakespeare's complete works. Type a seed phrase and it writes the rest. | Keras · TensorFlow · FastAPI · Docker |
+
+---
+
+### Toolkit
+
+- **Languages:** Python · SQL · Java · C++ · JavaScript
+- **ML & AI:** PyTorch · XGBoost · LlamaIndex · RAG · OCR · CuPy
+- **Data:** BigQuery · Snowflake · Airflow · dbt · Azure SQL · FastAPI · GitHub Actions
+- **Cloud & compute:** AWS · Azure · Docker · Slurm · distributed training
+- **Visualization:** Tableau · Matplotlib
+
+---
+
+### Beyond code
+
+Co-Founder & VP of Lopes Leetcode (peer-led interview prep) · AWS Student Builder Campus Leader · ColorStack member
